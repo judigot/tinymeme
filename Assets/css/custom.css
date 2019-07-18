@@ -1,0 +1,235 @@
+@font-face {
+    font-family: "Hack";
+    src: url(../fonts/Hack-BoldItalic.ttf);
+}
+html {
+    overflow-y: scroll;
+}
+body{
+    color: gray;
+    font-family: Trebuchet MS;
+    /*---Background---*/
+    /*background-image: url("../img/meme.png");*/
+    background-color: white;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+.container {
+    width: 90%;
+    text-align: center;
+}
+.loginform {
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.uploadpost {
+    max-width: 80%;
+    min-width: 180px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #888888;
+    opacity: 1;
+}
+.emailinput {
+    width: 180px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.passinput {
+    width: 180px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fieldinput{
+    width: 180px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.comment-box {
+    width: 80%;
+    max-width: 80%;
+    max-height: 500px;
+    min-height: 50px;
+    text-align: left;
+    line-height: 100%;
+}
+.post-title {
+    width: 80%;
+    font-size: 20px;
+    color: black;
+    max-width: 80%;
+    max-height: 100px;
+    min-height: 50px;
+    line-height: 100%;
+}
+.chooseaccountform {
+    width: 100%;
+}
+.bdatefield {
+    text-align: center;
+    display: inline-block;
+}
+.bdateinput, .birthmonth {
+    font-size: 20px;
+    width: 200px;
+    padding: 0px;
+    max-width: 100px;
+}
+/*----------------------------------------------------------------------*/
+
+/*-----------------------Site Title-----------------------9D3529*/
+/*----------Default----------*/
+.navbar-inverse .navbar-header .navbar-brand {
+    font-family: Hack;
+    color: black;
+    padding: 1%;
+    font-size: 28px;
+    /*line-height: 1.8vw;*/
+    /*transition: transform .2s;*/
+}
+/*----------Hover----------*/
+.navbar-inverse .navbar-header .navbar-brand:hover {
+    /*color: #EF3E4A;*/
+    /*transform: rotate(5deg);*/
+}
+/*----------------------------------------------------------------------*/
+
+
+/*-----------------------Navigation Bar-----------------------*/
+/*----------Default----------*/
+.navbar {
+    background-color: #FFD900;
+    border-bottom: 10px;
+    padding-top: 0;
+    box-shadow: 0px 0px 10px #888888;
+}
+/*----------Menu----------*/
+.nav.navbar-nav.navbar-right li a {
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 6px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: background-color .5s;
+}
+/*----------Menu Hover----------*/
+.nav.navbar-nav.navbar-right li a:hover {
+    background-color: #E8C600;
+}
+.nav.navbar-nav.navbar-right li a:active {
+    background-color: #D9B900;
+}
+
+.nav.navbar-nav.navbar-right.admin li a:hover {
+    background-color: #CCCCCC;
+}
+.nav.navbar-nav.navbar-right.admin li a:active {
+    background-color: #BBBBBB;
+}
+/*----------------------------------------------------------------------*/
+
+
+/*-----------------------Footer-----------------------*/
+/*----------Default----------*/
+footer {
+    font-family: Hack;
+    color: darkgray;
+    position: relative;
+    bottom: 0%;
+    transition: text-shadow .1s;
+    margin-top: 10%;
+    opacity: 1;
+    bottom: 0px;
+}
+footer:hover {
+    color: gray;
+    text-shadow: 5px 2px 5px darkgray;
+}
+/*----------------------------------------------------------------------*/
+
+
+/*-----------------------Buttons-----------------------*/
+/*----------Default----------*/
+.btn {
+    color: white;
+    font-size: 12px;
+}
+.btn-default {
+    color: black;
+}
+/*----------Hover----------*/
+/*.btn:hover {
+    color: white;
+    opacity: 0.8;
+}
+.btn:active {
+    opacity: 0.8;
+}*/
+.createaccount, .upload {
+    background-color: green;
+}
+.btn-close {
+    background-color: #DDDDDD;
+}
+.btn-createaccount {
+    background-color: #335E70;
+}
+.login {
+    background-color: #69A3BD;
+}
+/*----------------------------------------------------------------------*/
+
+/*-----------------------Font-Awesome-----------------------*/
+/*----------Default----------*/
+.fa {
+    color: #005795;
+}
+/*----------------------------------------------------------------------*/
+.activemenu {
+    box-shadow: 0px 20px 50px gray;
+}
+
+/*-----------------------User Post-----------------------*/
+.user-post-title {
+    line-height: 100%;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 10px;
+    margin-bottom: 0px;
+    text-align: justify;
+}
+.user-post {
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #888888;
+    padding: 15px;
+    padding-top: 1px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+    min-width: 200px;
+}
+.user-post.active {
+    min-width: 60%;
+}
+
+/*-----------------------Bootstrap-Confirmation.js-----------------------*/
+.confirmation {
+    font-family: Trebuchet MS;
+}
