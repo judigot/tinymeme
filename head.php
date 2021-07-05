@@ -4,6 +4,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="">
 <meta name="author" content="">
+
+<!--Facebook Link Preview-->
+<meta property="og:image" content="Assets\images\favicon.png" />
+
 <!--http://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20-->
 <!--
 ______          _                 
